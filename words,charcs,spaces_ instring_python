@@ -1,0 +1,10 @@
+wordCount=0
+charCount=0
+str=input("Enter the string\n")
+split_str=str.split()
+wordCount=len(split_str)
+for word in split_str:
+    charCount+=len(word)
+print("Total words in the given string ",wordCount)
+print("Total characters in the given string ",charCount)
+print("Number of space in the given string ",(wordCount-1))
